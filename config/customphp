@@ -1,0 +1,21 @@
+<?php
+$root = $_SERVER['HTTP_HOST'];
+
+if ($root == 'infokost.me') {
+    return [
+        'api_infokost_url' => 'https://api-stage.infokost.id/',
+        'auth' => 'EldH30nq3ZUbPqMeCy5cUUPXT'
+    ];
+}
+elseif ($root == 'stage.infokost.id') {
+    return [
+        'api_infokost_url' => 'https://api-stage.infokost.id/',
+        'auth' => 'EldH30nq3ZUbPqMeCy5cUUPXT'
+    ];
+}
+else {
+    return [
+        'api_infokost_url' => 'https://api.infokost.id/',
+        'auth' => 'EldH30nq3ZUbPqMeCy5cUUPXT'
+    ];
+}
