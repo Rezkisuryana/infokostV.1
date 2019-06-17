@@ -5,19 +5,31 @@ namespace App\Http\Controllers;
 use GuzzleHttp\Client;
 use App\Providers\AppHelper;
 use App\PropertyModel;
+use App\FacilityModel;
 use Illuminate\Http\Request;
 
 class SearchController extends Controller
 {
-    public function manggil()
+    public function manggil(Request $request)
     {   
-        $data       = array();
-        $get_hasil  = array();
-        $param      = array();
-
+        $data           = array();
+        $get_hasil      = array();
+        $param          = array();
+        $get_facilities = array();
+        
         $param['limit']     = 9;
         $param['offset']    = 0;
         $param['sort']      = "asc";
+
+        // GET FACILITY
+        
+        $facility = array();
+        $query_facilities = FacilityModel::lists(array());
+        if ($query_facilities->code == 200) {
+            $facility = $query_facilities->result;
+            
+        }
+        // END GET FACILITY
 
         $query_hasil = PropertyModel::lists($param);
         if($query_hasil->code == 200)
@@ -33,12 +45,14 @@ class SearchController extends Controller
                     'property_address'      => $row->property_address,
                     'property_daily_max'    => $row->property_daily_max,
                     'images'                => AppHelper::change_to_large($images),
-                    'facility'              => self::LoopData($row->facility)
+                    'facility'              => $row->facility
                 );
+
             }
             
         }
 
+        $data['get_facilities'] = $get_facilities;
         $data['hasil']  = $get_hasil;
         $data['total']  = $total;
         return view('pages/hasilpencarian', $data);
@@ -50,7 +64,7 @@ class SearchController extends Controller
         foreach ($data as $value) {
             $param[] = $value;
         }
-
+        dd($data);
         return $param;
     }
 }

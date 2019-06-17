@@ -158,6 +158,11 @@
         </footer>
         </div>
 </body>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip(); 
+    });
+</script>
 <script src=" {{asset('public/js/jquery.min.js')}} "></script>
 <script src=" {{asset('public/bootstrap/js/bootstrap.min.js')}} "></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>

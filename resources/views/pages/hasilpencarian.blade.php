@@ -161,22 +161,19 @@
                                 <h4 class="card-title font-weight-bold">{{ $row->property_name }}</h4>
                                 <h6 class="card-text">{{ $row->property_address }}</h6>
                                 {{-- masih Error --}}
-                                {{-- <div class="row">
+                                <div class="row">
                                     @if(isset($row->facility))
                                         @foreach ($row->facility as $key => $value)
+                                        {{-- {!! dd($value) !!} --}}
                                             <div class="col-4 detail-icon">
-                                                <img src="{{ asset('img/svg/'.\App\Providers\AppHelper::to_icon($value).'.svg') }}" alt="{{ $value }}" width="33" height="33">
-                                                <label>{{ $value['facility_name'] }}</label>
+                                                <img src="{{ asset('public/img/svg/'.\App\Providers\AppHelper::to_icon($value->facility_name.'.svg')) }}"
+                                                alt="{{ $value->facility_name }}"width="33" height="33"
+                                                data-toggle="tooltip" data-placement="top" title="{{ $value->facility_name }}!">
+                                                {{-- <label>{{ $value->facility_name }}</label> --}}
                                             </div>
                                         @endforeach
                                     @endif
-                                </div> --}}
-                                <span class="size-icon margin-icon">
-                                    <i class="fa fa-user-circle"></i>
-                                    <i class="fa fa-user-circle"></i>
-                                    <i class="fa fa-user-circle"></i>
-                                    <i class="fa fa-user-circle"></i>
-                                </span>
+                                </div>
                             </div>
                             <div class="card-footer">
                                 <h2>IDR {{ $row->property_daily_max}}<span class="per-hari">/hari</span></h2>
