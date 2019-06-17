@@ -165,12 +165,11 @@
                                     @if(isset($row->facility))
                                         @foreach ($row->facility as $key => $value)
                                         {{-- {!! dd($value) !!} --}}
-                                            <div class="col-4 detail-icon">
+                                            <span class="size-icon margin-icon">
                                                 <img src="{{ asset('public/img/svg/'.\App\Providers\AppHelper::to_icon($value->facility_name.'.svg')) }}"
-                                                alt="{{ $value->facility_name }}"width="33" height="33"
-                                                data-toggle="tooltip" data-placement="top" title="{{ $value->facility_name }}!">
+                                                alt="{{ $value->facility_name }}" data-toggle="tooltip" data-placement="top" title="{{ $value->facility_name }}!">
                                                 {{-- <label>{{ $value->facility_name }}</label> --}}
-                                            </div>
+                                            </span>
                                         @endforeach
                                     @endif
                                 </div>
