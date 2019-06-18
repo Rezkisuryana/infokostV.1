@@ -77,10 +77,10 @@
                             class="collapse show" id="collapse-1">
                             <fieldset class="padding-filter">
                                 <div class="custom-control custom-radio"><input type="radio" name="customRadio" checked="" id="customRadio1" class="custom-control-input"><label class="custom-control-label" for="customRadio1">All</label></div>
-                                <div class="custom-control custom-radio"><input type="radio" name="customRadio" checked="" id="customRadio1" class="custom-control-input"><label class="custom-control-label" for="customRadio2">Kost</label></div>
-                                <div class="custom-control custom-radio"><input type="radio" name="customRadio" id="customRadio1" class="custom-control-input"><label class="custom-control-label" for="customRadio2">Apartement</label></div>
-                                <div class="custom-control custom-radio"><input type="radio" name="customRadio" id="customRadio1" class="custom-control-input"><label class="custom-control-label" for="customRadio2">Villa</label></div>
-                                <div class="custom-control custom-radio"><input type="radio" name="customRadio" id="customRadio1" class="custom-control-input"><label class="custom-control-label" for="customRadio2">Hunian Lain</label></div>
+                                <div class="custom-control custom-radio"><input type="radio" name="customRadio" id="customRadio2" class="custom-control-input"><label class="custom-control-label" for="customRadio2">Kost</label></div>
+                                <div class="custom-control custom-radio"><input type="radio" name="customRadio" id="customRadio3" class="custom-control-input"><label class="custom-control-label" for="customRadio3">Apartement</label></div>
+                                <div class="custom-control custom-radio"><input type="radio" name="customRadio" id="customRadio4" class="custom-control-input"><label class="custom-control-label" for="customRadio4">Villa</label></div>
+                                <div class="custom-control custom-radio"><input type="radio" name="customRadio" id="customRadio5" class="custom-control-input"><label class="custom-control-label" for="customRadio5">Hunian Lain</label></div>
                             </fieldset>
                     </div>
                 </div>
@@ -90,9 +90,9 @@
                         <fieldset class="d-flex padding-filter">
                             <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" checked="" id="customRadioInline1" class="custom-control-input"><label class="custom-control-label" for="customRadioInline1">All</label></div>
                             <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" id="customRadioInline2" class="custom-control-input"><label class="custom-control-label" for="customRadioInline2">Harian</label></div>
-                            <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" id="customRadioInline2" class="custom-control-input"><label class="custom-control-label" for="customRadioInline2">Mingguan</label></div>
-                            <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" id="customRadioInline2" class="custom-control-input"><label class="custom-control-label" for="customRadioInline2">Bulanan</label></div>
-                            <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" id="customRadioInline2" class="custom-control-input"><label class="custom-control-label" for="customRadioInline2">Tahunan</label></div>
+                            <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" id="customRadioInline3" class="custom-control-input"><label class="custom-control-label" for="customRadioInline3">Mingguan</label></div>
+                            <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" id="customRadioInline4" class="custom-control-input"><label class="custom-control-label" for="customRadioInline4">Bulanan</label></div>
+                            <div class="custom-control custom-radio custom-control-inline"><input type="radio" name="customRadioInline" id="customRadioInline5" class="custom-control-input"><label class="custom-control-label" for="customRadioInline5">Tahunan</label></div>
                         </fieldset>
                 </div>
             </div>
@@ -114,12 +114,12 @@
                 <fieldset class="d-flex padding-filter">
                     <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" checked="" id="customCheckInline1" class="custom-control-input"><label class="custom-control-label" for="customCheckInline1">Dapur</label></div>
                     <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Kamar Mandi Luar</label></div>
-                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Parkir Mobil</label></div>
-                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Parkir Motor</label></div>
-                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Asisten Rumah Tangga</label></div>
-                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Ruang Tamu</label></div>
-                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Security</label></div>
-                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">WIFI</label></div>
+                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline3" class="custom-control-input"><label class="custom-control-label" for="customCheckInline3">Parkir Mobil</label></div>
+                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline4" class="custom-control-input"><label class="custom-control-label" for="customCheckInline4">Parkir Motor</label></div>
+                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline5" class="custom-control-input"><label class="custom-control-label" for="customCheckInline5">Asisten Rumah Tangga</label></div>
+                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline6" class="custom-control-input"><label class="custom-control-label" for="customCheckInline6">Ruang Tamu</label></div>
+                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline7" class="custom-control-input"><label class="custom-control-label" for="customCheckInline7">Security</label></div>
+                    <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline8" class="custom-control-input"><label class="custom-control-label" for="customCheckInline8">WIFI</label></div>
                 </fieldset>
         </div>
     </div>
@@ -129,12 +129,12 @@
             <fieldset class="d-flex padding-filter">
                 <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" checked="" id="customCheckInline1" class="custom-control-input"><label class="custom-control-label" for="customCheckInline1">Dapur</label></div>
                 <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Kamar Mandi Luar</label></div>
-                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Parkir Mobil</label></div>
-                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Parkir Motor</label></div>
-                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Asisten Rumah Tangga</label></div>
-                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Ruang Tamu</label></div>
-                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">Security</label></div>
-                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline2" class="custom-control-input"><label class="custom-control-label" for="customCheckInline2">WIFI</label></div>
+                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline3" class="custom-control-input"><label class="custom-control-label" for="customCheckInline3">Parkir Mobil</label></div>
+                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline4" class="custom-control-input"><label class="custom-control-label" for="customCheckInline4">Parkir Motor</label></div>
+                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline5" class="custom-control-input"><label class="custom-control-label" for="customCheckInline5">Asisten Rumah Tangga</label></div>
+                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline6" class="custom-control-input"><label class="custom-control-label" for="customCheckInline6">Ruang Tamu</label></div>
+                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline7" class="custom-control-input"><label class="custom-control-label" for="customCheckInline7">Security</label></div>
+                <div class="custom-control custom-checkbox custom-control-inline"><input type="checkbox" id="customCheckInline8" class="custom-control-input"><label class="custom-control-label" for="customCheckInline8">WIFI</label></div>
             </fieldset>
     </div>
     </div>
